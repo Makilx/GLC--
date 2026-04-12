@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Documents/Projects/GLC++
+CMAKE_SOURCE_DIR = /home/soso/Documents/Sync/Projects/GLC--
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Documents/Projects/GLC++/build
+CMAKE_BINARY_DIR = /home/soso/Documents/Sync/Projects/GLC--/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GLEngine.dir/depend.make
@@ -70,144 +70,144 @@ include CMakeFiles/GLEngine.dir/progress.make
 include CMakeFiles/GLEngine.dir/flags.make
 
 CMakeFiles/GLEngine.dir/src/Init.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/Init.cpp.o: /home/jose/Documents/Projects/GLC++/src/Init.cpp
+CMakeFiles/GLEngine.dir/src/Init.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/Init.cpp
 CMakeFiles/GLEngine.dir/src/Init.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GLEngine.dir/src/Init.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/Init.cpp.o -MF CMakeFiles/GLEngine.dir/src/Init.cpp.o.d -o CMakeFiles/GLEngine.dir/src/Init.cpp.o -c /home/jose/Documents/Projects/GLC++/src/Init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GLEngine.dir/src/Init.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/Init.cpp.o -MF CMakeFiles/GLEngine.dir/src/Init.cpp.o.d -o CMakeFiles/GLEngine.dir/src/Init.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/Init.cpp
 
 CMakeFiles/GLEngine.dir/src/Init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/Init.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/Init.cpp > CMakeFiles/GLEngine.dir/src/Init.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/Init.cpp > CMakeFiles/GLEngine.dir/src/Init.cpp.i
 
 CMakeFiles/GLEngine.dir/src/Init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/Init.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/Init.cpp -o CMakeFiles/GLEngine.dir/src/Init.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/Init.cpp -o CMakeFiles/GLEngine.dir/src/Init.cpp.s
 
 CMakeFiles/GLEngine.dir/src/app/App.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/app/App.cpp.o: /home/jose/Documents/Projects/GLC++/src/app/App.cpp
+CMakeFiles/GLEngine.dir/src/app/App.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/app/App.cpp
 CMakeFiles/GLEngine.dir/src/app/App.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GLEngine.dir/src/app/App.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/app/App.cpp.o -MF CMakeFiles/GLEngine.dir/src/app/App.cpp.o.d -o CMakeFiles/GLEngine.dir/src/app/App.cpp.o -c /home/jose/Documents/Projects/GLC++/src/app/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GLEngine.dir/src/app/App.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/app/App.cpp.o -MF CMakeFiles/GLEngine.dir/src/app/App.cpp.o.d -o CMakeFiles/GLEngine.dir/src/app/App.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/app/App.cpp
 
 CMakeFiles/GLEngine.dir/src/app/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/app/App.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/app/App.cpp > CMakeFiles/GLEngine.dir/src/app/App.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/app/App.cpp > CMakeFiles/GLEngine.dir/src/app/App.cpp.i
 
 CMakeFiles/GLEngine.dir/src/app/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/app/App.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/app/App.cpp -o CMakeFiles/GLEngine.dir/src/app/App.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/app/App.cpp -o CMakeFiles/GLEngine.dir/src/app/App.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/Window.cpp
+CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Window.cpp
 CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Window.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/Window.cpp > CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Window.cpp > CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/Window.cpp -o CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Window.cpp -o CMakeFiles/GLEngine.dir/src/renderer/Window.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/Renderer.cpp
+CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Renderer.cpp
 CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Renderer.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/Renderer.cpp > CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Renderer.cpp > CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/Renderer.cpp -o CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/Renderer.cpp -o CMakeFiles/GLEngine.dir/src/renderer/Renderer.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/objects/Buffer.cpp
+CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Buffer.cpp
 CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/objects/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Buffer.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/objects/Buffer.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Buffer.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/objects/Buffer.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Buffer.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/objects/ArrayObject.cpp
+CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/ArrayObject.cpp
 CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/objects/ArrayObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/ArrayObject.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/objects/ArrayObject.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/ArrayObject.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/objects/ArrayObject.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/ArrayObject.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/ArrayObject.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/objects/Mesh.cpp
+CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Mesh.cpp
 CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/objects/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Mesh.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/objects/Mesh.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Mesh.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/objects/Mesh.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Mesh.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Mesh.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/objects/Shader.cpp
+CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Shader.cpp
 CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/objects/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Shader.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/objects/Shader.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Shader.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/objects/Shader.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Shader.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Shader.cpp.s
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o: /home/jose/Documents/Projects/GLC++/src/renderer/objects/Texture.cpp
+CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Texture.cpp
 CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o -c /home/jose/Documents/Projects/GLC++/src/renderer/objects/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o -MF CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o.d -o CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Texture.cpp
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/renderer/objects/Texture.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Texture.cpp > CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.i
 
 CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/renderer/objects/Texture.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Texture.cpp -o CMakeFiles/GLEngine.dir/src/renderer/objects/Texture.cpp.s
 
 CMakeFiles/GLEngine.dir/src/input/Input.cpp.o: CMakeFiles/GLEngine.dir/flags.make
-CMakeFiles/GLEngine.dir/src/input/Input.cpp.o: /home/jose/Documents/Projects/GLC++/src/input/Input.cpp
+CMakeFiles/GLEngine.dir/src/input/Input.cpp.o: /home/soso/Documents/Sync/Projects/GLC--/src/input/Input.cpp
 CMakeFiles/GLEngine.dir/src/input/Input.cpp.o: CMakeFiles/GLEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GLEngine.dir/src/input/Input.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/input/Input.cpp.o -MF CMakeFiles/GLEngine.dir/src/input/Input.cpp.o.d -o CMakeFiles/GLEngine.dir/src/input/Input.cpp.o -c /home/jose/Documents/Projects/GLC++/src/input/Input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GLEngine.dir/src/input/Input.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GLEngine.dir/src/input/Input.cpp.o -MF CMakeFiles/GLEngine.dir/src/input/Input.cpp.o.d -o CMakeFiles/GLEngine.dir/src/input/Input.cpp.o -c /home/soso/Documents/Sync/Projects/GLC--/src/input/Input.cpp
 
 CMakeFiles/GLEngine.dir/src/input/Input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GLEngine.dir/src/input/Input.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/Documents/Projects/GLC++/src/input/Input.cpp > CMakeFiles/GLEngine.dir/src/input/Input.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soso/Documents/Sync/Projects/GLC--/src/input/Input.cpp > CMakeFiles/GLEngine.dir/src/input/Input.cpp.i
 
 CMakeFiles/GLEngine.dir/src/input/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GLEngine.dir/src/input/Input.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/Documents/Projects/GLC++/src/input/Input.cpp -o CMakeFiles/GLEngine.dir/src/input/Input.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soso/Documents/Sync/Projects/GLC--/src/input/Input.cpp -o CMakeFiles/GLEngine.dir/src/input/Input.cpp.s
 
 # Object files for target GLEngine
 GLEngine_OBJECTS = \
@@ -241,7 +241,7 @@ GLEngine: _deps/glfw-build/src/libglfw3.a
 GLEngine: /usr/lib/x86_64-linux-gnu/librt.a
 GLEngine: /usr/lib/x86_64-linux-gnu/libm.so
 GLEngine: CMakeFiles/GLEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable GLEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable GLEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +253,6 @@ CMakeFiles/GLEngine.dir/clean:
 .PHONY : CMakeFiles/GLEngine.dir/clean
 
 CMakeFiles/GLEngine.dir/depend:
-	cd /home/jose/Documents/Projects/GLC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Documents/Projects/GLC++ /home/jose/Documents/Projects/GLC++ /home/jose/Documents/Projects/GLC++/build /home/jose/Documents/Projects/GLC++/build /home/jose/Documents/Projects/GLC++/build/CMakeFiles/GLEngine.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soso/Documents/Sync/Projects/GLC-- /home/soso/Documents/Sync/Projects/GLC-- /home/soso/Documents/Sync/Projects/GLC--/build /home/soso/Documents/Sync/Projects/GLC--/build /home/soso/Documents/Sync/Projects/GLC--/build/CMakeFiles/GLEngine.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GLEngine.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jose/Documents/Projects/GLC++/include -I/home/jose/Documents/Projects/GLC++/build/_deps/glad-src/include -I/home/jose/Documents/Projects/GLC++/build/_deps/glfw-src/include -I/home/jose/Documents/Projects/GLC++/build/_deps/glm-src -I/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-src
+CXX_INCLUDES = -I/home/soso/Documents/Sync/Projects/GLC--/include -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src/include -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src/include -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-src -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-src
 
 CXX_FLAGS = -g
 

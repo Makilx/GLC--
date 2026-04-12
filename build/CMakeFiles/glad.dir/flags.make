@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jose/Documents/Projects/GLC++/build/_deps/glad-src/include
+C_INCLUDES = -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src/include
 
 C_FLAGS = -g
 

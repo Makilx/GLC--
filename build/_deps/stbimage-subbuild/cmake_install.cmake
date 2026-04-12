@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild
+# Install script for directory: /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

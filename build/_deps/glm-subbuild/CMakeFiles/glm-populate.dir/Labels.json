@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch_disconnected.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch_disconnected.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
 		},
 		{
-			"file" : "/home/jose/Documents/Projects/GLC++/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update_disconnected.rule"
+			"file" : "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update_disconnected.rule"
 		}
 	],
 	"target" : 

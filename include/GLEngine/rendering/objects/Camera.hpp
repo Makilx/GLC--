@@ -22,7 +22,7 @@ namespace GLEngine {
             view = glm::translate(view, -position);
             
             if (orthoCamera)
-                proj = glm::ortho(0, size.x, size.y, 0);
+                proj = glm::ortho(0.0f, (float)size.x, (float)size.y, 0.0f, 0.1f, 100.0f);
             else
                 proj = glm::perspective(glm::radians(fieldOfView), ((float)size.x/(float)size.y), 0.1f, 100.0f);
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild
+CMAKE_SOURCE_DIR = /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild
+CMAKE_BINARY_DIR = /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild
 
 # Utility rule file for glad-populate.
 
@@ -77,55 +77,55 @@ CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glad-populate'"
-	/usr/bin/cmake -E make_directory /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles/glad-populate-complete
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glad-populate'"
+	/usr/bin/cmake -E make_directory /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles/glad-populate-complete
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-build: glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure: glad-populate-prefix/tmp/glad-populate-cfgcmd.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure: glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch_disconnected
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-download: glad-populate-prefix/src/glad-populate-stamp/glad-populate-gitinfo.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-download: glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps && /usr/bin/cmake -P /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
-	cd /home/jose/Documents/Projects/GLC++/build/_deps && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps && /usr/bin/cmake -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-install: glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'glad-populate'"
-	/usr/bin/cmake -Dcfgdir= -P /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'glad-populate'"
+	/usr/bin/cmake -Dcfgdir= -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch_disconnected: glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch-info.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch_disconnected: glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch_disconnected step for 'glad-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch_disconnected step for 'glad-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch_disconnected
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch_disconnected
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-test: glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected: glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected: glad-populate-prefix/src/glad-populate-stamp/glad-populate-update-info.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected: glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing disconnected update step for 'glad-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-src && /usr/bin/cmake -Dcan_fetch=NO -P /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-src && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing disconnected update step for 'glad-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src && /usr/bin/cmake -Dcan_fetch=NO -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-update_disconnected
 
 glad-populate: CMakeFiles/glad-populate
 glad-populate: CMakeFiles/glad-populate-complete
@@ -149,6 +149,6 @@ CMakeFiles/glad-populate.dir/clean:
 .PHONY : CMakeFiles/glad-populate.dir/clean
 
 CMakeFiles/glad-populate.dir/depend:
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/glad-subbuild/CMakeFiles/glad-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-subbuild/CMakeFiles/glad-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/glad-populate.dir/depend
 

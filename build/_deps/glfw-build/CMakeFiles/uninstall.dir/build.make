@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Documents/Projects/GLC++
+CMAKE_SOURCE_DIR = /home/soso/Documents/Sync/Projects/GLC--
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Documents/Projects/GLC++/build
+CMAKE_BINARY_DIR = /home/soso/Documents/Sync/Projects/GLC--/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include _deps/glfw-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/glfw-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/glfw-build/CMakeFiles/uninstall:
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glfw-build && /usr/bin/cmake -P /home/jose/Documents/Projects/GLC++/build/_deps/glfw-build/cmake_uninstall.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build && /usr/bin/cmake -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build/cmake_uninstall.cmake
 
 uninstall: _deps/glfw-build/CMakeFiles/uninstall
 uninstall: _deps/glfw-build/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ _deps/glfw-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/build
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/clean:
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/clean
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/depend:
-	cd /home/jose/Documents/Projects/GLC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Documents/Projects/GLC++ /home/jose/Documents/Projects/GLC++/build/_deps/glfw-src /home/jose/Documents/Projects/GLC++/build /home/jose/Documents/Projects/GLC++/build/_deps/glfw-build /home/jose/Documents/Projects/GLC++/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soso/Documents/Sync/Projects/GLC-- /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src /home/soso/Documents/Sync/Projects/GLC--/build /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/depend
 

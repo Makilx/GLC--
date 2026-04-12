@@ -9,7 +9,7 @@ uniform mat4 Camera;
 out vec2 texCoords;
 
 void main() {
-    texCoords = texPos;
+     texCoords= texPos;
 
-    gl_Position = Camera * vec4(aPos + MeshPos, 0);
+    gl_Position = Camera * vec4(aPos + MeshPos, 1.0);
 }

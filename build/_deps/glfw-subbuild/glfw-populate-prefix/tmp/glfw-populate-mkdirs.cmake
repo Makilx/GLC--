@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-src"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-build"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/src"
-  "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/src"
+  "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

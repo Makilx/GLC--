@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild
+CMAKE_SOURCE_DIR = /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild
+CMAKE_BINARY_DIR = /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild
 
 # Utility rule file for stbimage-populate.
 
@@ -77,55 +77,55 @@ CMakeFiles/stbimage-populate-complete: stbimage-populate-prefix/src/stbimage-pop
 CMakeFiles/stbimage-populate-complete: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-build
 CMakeFiles/stbimage-populate-complete: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-install
 CMakeFiles/stbimage-populate-complete: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'stbimage-populate'"
-	/usr/bin/cmake -E make_directory /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles/stbimage-populate-complete
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'stbimage-populate'"
+	/usr/bin/cmake -E make_directory /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles/stbimage-populate-complete
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-done
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-build: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-build
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-configure: stbimage-populate-prefix/tmp/stbimage-populate-cfgcmd.txt
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-configure: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch_disconnected
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-configure
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-download: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-gitinfo.txt
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-download: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps && /usr/bin/cmake -P /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-gitclone.cmake
-	cd /home/jose/Documents/Projects/GLC++/build/_deps && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps && /usr/bin/cmake -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-gitclone.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-download
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-install: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-install
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'stbimage-populate'"
-	/usr/bin/cmake -Dcfgdir= -P /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'stbimage-populate'"
+	/usr/bin/cmake -Dcfgdir= -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-mkdir
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch_disconnected: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch-info.txt
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch_disconnected: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch_disconnected step for 'stbimage-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch_disconnected step for 'stbimage-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch_disconnected
+	/usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-patch_disconnected
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-test: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E echo_append
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-build && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-test
 
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected: stbimage-populate-prefix/tmp/stbimage-populate-gitupdate.cmake
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update-info.txt
 stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected: stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing disconnected update step for 'stbimage-populate'"
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-src && /usr/bin/cmake -Dcan_fetch=NO -P /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-gitupdate.cmake
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-src && /usr/bin/cmake -E touch /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing disconnected update step for 'stbimage-populate'"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-src && /usr/bin/cmake -Dcan_fetch=NO -P /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/tmp/stbimage-populate-gitupdate.cmake
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-src && /usr/bin/cmake -E touch /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/stbimage-populate-prefix/src/stbimage-populate-stamp/stbimage-populate-update_disconnected
 
 stbimage-populate: CMakeFiles/stbimage-populate
 stbimage-populate: CMakeFiles/stbimage-populate-complete
@@ -149,6 +149,6 @@ CMakeFiles/stbimage-populate.dir/clean:
 .PHONY : CMakeFiles/stbimage-populate.dir/clean
 
 CMakeFiles/stbimage-populate.dir/depend:
-	cd /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild /home/jose/Documents/Projects/GLC++/build/_deps/stbimage-subbuild/CMakeFiles/stbimage-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild /home/soso/Documents/Sync/Projects/GLC--/build/_deps/stbimage-subbuild/CMakeFiles/stbimage-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/stbimage-populate.dir/depend
 

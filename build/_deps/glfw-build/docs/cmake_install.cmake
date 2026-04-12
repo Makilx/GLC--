@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/Documents/Projects/GLC++/build/_deps/glfw-src/docs
+# Install script for directory: /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

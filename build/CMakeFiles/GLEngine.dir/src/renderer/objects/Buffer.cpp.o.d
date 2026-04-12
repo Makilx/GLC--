@@ -1,10 +1,10 @@
 CMakeFiles/GLEngine.dir/src/renderer/objects/Buffer.cpp.o: \
- /home/jose/Documents/Projects/GLC++/src/renderer/objects/Buffer.cpp \
+ /home/soso/Documents/Sync/Projects/GLC--/src/renderer/objects/Buffer.cpp \
  /usr/include/stdc-predef.h \
- /home/jose/Documents/Projects/GLC++/include/GLEngine/rendering/objects/Buffer.hpp \
- /home/jose/Documents/Projects/GLC++/build/_deps/glad-src/include/glad/glad.h \
+ /home/soso/Documents/Sync/Projects/GLC--/include/GLEngine/rendering/objects/Buffer.hpp \
+ /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src/include/glad/glad.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/jose/Documents/Projects/GLC++/build/_deps/glad-src/include/KHR/khrplatform.h \
+ /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glad-src/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

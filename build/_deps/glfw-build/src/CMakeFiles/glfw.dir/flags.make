@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
 
-C_INCLUDES = -I/home/jose/Documents/Projects/GLC++/build/_deps/glfw-src/include -I/home/jose/Documents/Projects/GLC++/build/_deps/glfw-src/src -I/home/jose/Documents/Projects/GLC++/build/_deps/glfw-build/src
+C_INCLUDES = -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src/include -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src/src -I/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build/src
 
 C_FLAGS = -g -std=c99 -fPIC -Wall
 

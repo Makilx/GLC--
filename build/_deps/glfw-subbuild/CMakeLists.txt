@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(glfw-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/glfw/glfw.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "3.4" "GIT_SHALLOW" "TRUE" "UPDATE_DISCONNECTED" "FALSE"
-                    SOURCE_DIR          "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-src"
-                    BINARY_DIR          "/home/jose/Documents/Projects/GLC++/build/_deps/glfw-build"
+                    SOURCE_DIR          "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-src"
+                    BINARY_DIR          "/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glfw-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

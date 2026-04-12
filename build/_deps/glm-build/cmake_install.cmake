@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/Documents/Projects/GLC++/build/_deps/glm-src
+# Install script for directory: /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jose/Documents/Projects/GLC++/build/_deps/glm-build/glm/cmake_install.cmake")
+  include("/home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-build/glm/cmake_install.cmake")
 
 endif()
 

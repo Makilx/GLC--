@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/Documents/Projects/GLC++/build/_deps/glm-src/glm
+# Install script for directory: /home/soso/Documents/Sync/Projects/GLC--/build/_deps/glm-src/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
