@@ -1,10 +1,12 @@
 #pragma once
 
+#include <GLEngine/event/Event.hpp>
 #include <GLEngine/rendering/Window.hpp>
 #include <glm/glm.hpp>
 #include <array>
 
 namespace GLEngine {
+    //#region Enums
     enum class MouseState {
         Default         = GLFW_CURSOR_NORMAL,
         Hidden          = GLFW_CURSOR_HIDDEN,
@@ -129,6 +131,14 @@ namespace GLEngine {
         // Aliases (GLFW defines these too)
         Last        = GLFW_MOUSE_BUTTON_LAST
     };
+    //#endregion
+
+    //#region Events
+    class MouseMoveEvent : public Event {
+        public:
+        glm::vec2 position;
+    };
+    //#endregion
 
     class Input {
         public:
@@ -144,6 +154,9 @@ namespace GLEngine {
         static bool GetKey(Key key);
         static bool IsKeyDown(Key key);
         static bool IsKeyUp(Key key);
+
+        // Events
+        static Signal<MouseMoveEvent> OnMouseMove;
 
         private:
         static void Init(GLFWwindow *instance);

@@ -6,6 +6,11 @@
 #include <glm/glm.hpp>
 
 namespace GLEngine {
+    enum class TextureImageType {
+        Pixelated   = GL_REPEAT,
+        Default     = GL_LINEAR
+    };
+
     class Texture {
         public:
         Texture();
@@ -17,6 +22,7 @@ namespace GLEngine {
         void Use(Shaders &shader, unsigned int slot = 0);
         void Load(std::string filePath);
         glm::ivec2 GetSize() { return size; }
+        void SetImageType(TextureImageType type);
 
         private:
         unsigned int id;

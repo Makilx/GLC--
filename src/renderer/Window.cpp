@@ -152,3 +152,19 @@ glm::ivec2 Window::GetSize() {
     glfwGetWindowSize(window, &width, &height);
     return glm::ivec2(width, height);
 }
+
+std::string Window::GetTitle() {
+    return std::string(glfwGetWindowTitle(window));
+}
+
+void Window::SetSize(glm::ivec2 size) {
+    glfwSetWindowSize(window, size.x, size.y);
+}
+
+void Window::SetTitle(std::string title) {
+    glfwSetWindowTitle(window, title.c_str());
+}
+
+void Window::Close() {
+    glfwSetWindowShouldClose(window, 1);
+}

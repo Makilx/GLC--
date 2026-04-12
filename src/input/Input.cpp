@@ -8,6 +8,7 @@ glm::vec2               Input::warpTarget = glm::vec2(0.0);
 glm::vec2               Input::mouseDelta = glm::vec2(0.0);
 GLFWwindow*             Input::instance = NULL;
 bool                    Input::ignoreWarpEvent = false;
+GLEngine::Signal<GLEngine::MouseMoveEvent>  GLEngine::Input::OnMouseMove;
 std::array<bool, GLFW_KEY_LAST + 1> Input::pressingKeys = {};
 std::array<bool, GLFW_KEY_LAST + 1> Input::previousPressingKeys = {};
 std::array<bool, GLFW_MOUSE_BUTTON_LAST + 1> Input::pressingMouseButtons = {};
@@ -57,6 +58,13 @@ void Input::Init(GLFWwindow *i) {
 void Input::OnUpdate() {
     mouseDelta = pendingMouseDelta;
     pendingMouseDelta = glm::vec2(0.0f);
+
+    // Event
+    if (mouseDelta.x != 0.0f || mouseDelta.y != 0.0f) {
+        MouseMoveEvent newEvent;
+        newEvent.position = GetMousePos();
+        OnMouseMove.Fire(newEvent);
+    }
 
     if (currentState == MouseState::Locked || currentState == MouseState::LockedCenter) {
         if (currentState == MouseState::LockedCenter) {

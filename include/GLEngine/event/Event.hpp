@@ -21,7 +21,7 @@ namespace GLEngine {
     class Signal {
         public:
         using Listener = std::function<void(EventType&)>;
-        static_assert(std::is_base_of(Event, EventType), "This is a invalid event type (it must inherit the event class)");
+        static_assert(std::is_base_of<Event, EventType>(), "This is a invalid event type (it must inherit the event class)");
 
         void Subscribe(Listener listener) {
             listeners.push_back(listener);

@@ -51,3 +51,11 @@ void Texture::Load(std::string filePath) {
 
     stbi_image_free(data);
 }
+
+void Texture::SetImageType(TextureImageType type) {
+    Bind();
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, static_cast<GLint>(type));	
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, static_cast<GLint>(type));
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, static_cast<GLint>(type));
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, static_cast<GLint>(type));
+}

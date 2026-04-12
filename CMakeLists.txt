@@ -22,10 +22,9 @@ macro(ImportRepo NAME REPO COMMIT)
 endmacro()
 
 # Source
-add_executable(
+add_library(
     GLEngine
 
-    "src/Init.cpp"
     "src/app/App.cpp"
     "src/renderer/Window.cpp"
     "src/renderer/Renderer.cpp"

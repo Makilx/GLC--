@@ -24,6 +24,10 @@ namespace GLEngine {
         void PollEvents();
         bool ShouldClose();
         glm::ivec2 GetSize();
+        std::string GetTitle();
+        void SetSize(glm::ivec2 size);
+        void SetTitle(std::string title);
+        void Close();
 
         private:
         static Window*  instance;

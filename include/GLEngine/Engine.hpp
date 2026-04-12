@@ -11,3 +11,5 @@
 #include <GLEngine/input/Input.hpp>
 
 #include <GLEngine/app/App.hpp>
+
+#include <GLEngine/event/Event.hpp>
