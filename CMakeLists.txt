@@ -30,7 +30,6 @@ add_library(
     "src/renderer/Renderer.cpp"
     "src/renderer/objects/Buffer.cpp"
     "src/renderer/objects/ArrayObject.cpp"
-    "src/renderer/objects/Mesh.cpp"
     "src/renderer/objects/Shader.cpp"
     "src/renderer/objects/Texture.cpp"
     "src/input/Input.cpp"
