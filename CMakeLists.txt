@@ -60,7 +60,7 @@ target_include_directories(
     GLEngine
     PUBLIC
 
-    "${CMAKE_SOURCE_DIR}/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/include"
 
     # Import includes
     "${glad_SOURCE_DIR}/include"
