@@ -7,7 +7,7 @@
 
 namespace GLEngine {
     enum class TextureImageType {
-        Pixelated   = GL_REPEAT,
+        Pixelated   = GL_NEAREST,
         Default     = GL_LINEAR
     };
 
