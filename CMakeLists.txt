@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.15.0)
 project(GLEngine VERSION 1.0)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Define macro for importing GitHub repos
 include(FetchContent)
 
@@ -25,18 +27,26 @@ endmacro()
 add_library(
     GLEngine
 
-    "src/app/App.cpp"
-    "src/renderer/Window.cpp"
-    "src/renderer/Renderer.cpp"
-    "src/renderer/objects/Buffer.cpp"
-    "src/renderer/objects/ArrayObject.cpp"
-    "src/renderer/objects/Shader.cpp"
-    "src/renderer/objects/Texture.cpp"
-    "src/input/Input.cpp"
+    "src/logger.cpp"
+    "src/app/app.cpp"
+    "src/rendering/renderer.cpp"
+    "src/rendering/window.cpp"
+    "src/rendering/shaders.cpp"
+    "src/input/input.cpp"
+    "src/rendering/mesh.cpp"
+    "src/rendering/opengl/buffer.cpp"
+    "src/rendering/opengl/vertexArray.cpp"
 )
 
-# Imports
+# Source - Header inclusion
+file(GLOB_RECURSE GLE_HEADERS
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp"
+)
 
+target_sources(GLEngine PUBLIC ${GLE_HEADERS})
+
+# Imports
+target_compile_features(GLEngine PUBLIC cxx_std_20)
 
 # GLAD
 ImportRepo(glad https://github.com/Dav1dde/glad.git 5bf3eda)
@@ -66,4 +76,21 @@ target_include_directories(
     "${glfw_SOURCE_DIR}/include"
     "${glm_SOURCE_DIR}"
     "${stbimage_SOURCE_DIR}"
+)
+
+add_executable(
+    Debug
+    "src/test.cpp"
+)
+
+target_link_libraries(
+    Debug 
+    PUBLIC
+    GLEngine
+)
+
+target_include_directories(
+    Debug
+    PUBLIC
+    "${CMAKE_CURRENT_SOURCE_DIR}/include"
 )

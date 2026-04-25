@@ -1,0 +1,31 @@
+BasedOnStyle: LLVM
+
+BreakBeforeBraces: Attach
+
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+MaxEmptyLinesToKeep: 4
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+NamespaceIndentation: All
+
+SortIncludes: true
+IncludeBlocks: Preserve
+
+IncludeCategories:
+  - Regex: '<glad/.*>'
+    Priority: 1
+
+  - Regex: '<GLFW/.*>'
+    Priority: 2
+
+  - Regex: '<.*>'
+    Priority: 3
+
+  - Regex: '".*"'
+    Priority: 4
