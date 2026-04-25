@@ -78,19 +78,19 @@ target_include_directories(
     "${stbimage_SOURCE_DIR}"
 )
 
-add_executable(
-    Debug
-    "src/test.cpp"
-)
+# add_executable(
+#     Debug
+#     "src/test.cpp"
+# )
 
-target_link_libraries(
-    Debug 
-    PUBLIC
-    GLEngine
-)
+# target_link_libraries(
+#     Debug 
+#     PUBLIC
+#     GLEngine
+# )
 
-target_include_directories(
-    Debug
-    PUBLIC
-    "${CMAKE_CURRENT_SOURCE_DIR}/include"
-)
+# target_include_directories(
+#     Debug
+#     PUBLIC
+#     "${CMAKE_CURRENT_SOURCE_DIR}/include"
+# )
