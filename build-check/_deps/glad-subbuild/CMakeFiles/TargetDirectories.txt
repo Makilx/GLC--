@@ -1,3 +1,0 @@
-/home/soso/Documents/Sync/Projects/GLC--/build-check/_deps/glad-subbuild/CMakeFiles/glad-populate.dir
-/home/soso/Documents/Sync/Projects/GLC--/build-check/_deps/glad-subbuild/CMakeFiles/edit_cache.dir
-/home/soso/Documents/Sync/Projects/GLC--/build-check/_deps/glad-subbuild/CMakeFiles/rebuild_cache.dir

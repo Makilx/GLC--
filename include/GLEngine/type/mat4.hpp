@@ -55,13 +55,13 @@ namespace gle {
         Mat4 operator*(const Mat4 &o) const {
             Mat4 r{};
 
-            for (int row = 0; row < 4; ++row) {
-                for (int col = 0; col < 4; ++col) {
-                    r.data[col + row * 4] =
-                        data[0 + row * 4] * o.data[col + 0 * 4] +
-                        data[1 + row * 4] * o.data[col + 1 * 4] +
-                        data[2 + row * 4] * o.data[col + 2 * 4] +
-                        data[3 + row * 4] * o.data[col + 3 * 4];
+            for (int col = 0; col < 4; ++col) {
+                for (int row = 0; row < 4; ++row) {
+                    r.data[col * 4 + row] =
+                        data[0 * 4 + row] * o.data[col * 4 + 0] +
+                        data[1 * 4 + row] * o.data[col * 4 + 1] +
+                        data[2 * 4 + row] * o.data[col * 4 + 2] +
+                        data[3 * 4 + row] * o.data[col * 4 + 3];
                 }
             }
 

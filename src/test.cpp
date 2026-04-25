@@ -35,12 +35,13 @@ class LLL : public gle::App {
             }
             )");
 
-        mesh.SetVertices(std::vector<float>(
-            {-0.5f, 0.5f, -0.5f, -0.5f, 0.5f, -0.5f, 0.5f, 0.5f}));
+        mesh.SetVertices(std::vector<float>({-500.0f, 500.0f, -500.0f, -500.0f,
+                                             500.0f, -500.0f, 500.0f, 500.0f}));
         mesh.SetIndices(std::vector<unsigned int>({0, 1, 2, 0, 2, 3}));
         mesh.layout.Push<float>(2);
         mesh.color = gle::Color::Red();
-        camera.position.position.z -= 3;
+        camera.position.position.z += 3;
+        camera.orthographic = true;
     }
 
     void OnUpdate(double deltaTime) override {

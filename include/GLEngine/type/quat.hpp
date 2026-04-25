@@ -3,16 +3,28 @@
 #include <cmath>
 
 namespace gle {
+    static double toRadians(double degrees) {
+        return degrees * (M_PI / 180);
+    }
+
+    static double toDegrees(double radians) {
+        return radians * (180 / M_PI);
+    }
+
     struct Quat {
         float x, y, z, w;
 
         // Constructors
-        constexpr Quat() : x(0), y(0), z(0), w(1) {}
+        constexpr Quat() : x(0), y(0), z(0), w(1) {
+        }
         constexpr Quat(float x, float y, float z, float w)
-            : x(x), y(y), z(z), w(w) {}
+            : x(x), y(y), z(z), w(w) {
+        }
 
         // Identity
-        static constexpr Quat Identity() { return Quat(0, 0, 0, 1); }
+        static constexpr Quat Identity() {
+            return Quat(0, 0, 0, 1);
+        }
 
         // Length
         float Length() const {
@@ -27,7 +39,9 @@ namespace gle {
         }
 
         // Inverse (for unit quats this is conjugate)
-        Quat Inverse() const { return Quat(-x, -y, -z, w); }
+        Quat Inverse() const {
+            return Quat(-x, -y, -z, w);
+        }
 
         // Quaternion multiplication (rotation composition)
         constexpr Quat operator*(const Quat &q) const {
@@ -66,4 +80,4 @@ namespace gle {
             return result.Normalized();
         }
     };
-}
+} // namespace gle

@@ -15,7 +15,8 @@ namespace gle {
         void Use(Shaders &shaders) {
             // Get window size
             IVec2 windowSize = Window::GetInstance().GetSize();
-            const float width = static_cast<float>(windowSize.x > 0 ? windowSize.x : 1);
+            const float width =
+                static_cast<float>(windowSize.x > 0 ? windowSize.x : 1);
             const float height =
                 static_cast<float>(windowSize.y > 0 ? windowSize.y : 1);
 
@@ -26,12 +27,13 @@ namespace gle {
                 projection = Mat4::Ortho(0.0f, width, height, 0.0f,
                                          clipPlanes.min, clipPlanes.max);
             else
-                projection = Mat4::Perspective(fieldOfView, width / height,
-                                               clipPlanes.min, clipPlanes.max);
+                projection = Mat4::Perspective(gle::toRadians(fieldOfView),
+                                               width / height, clipPlanes.min,
+                                               clipPlanes.max);
 
             // Output
-            shaders.SetUniform("CameraProjection",
-                               projection * position.ToMat4());
+            const Mat4 view = position.Inverse().ToMat4();
+            shaders.SetUniform("CameraProjection", projection * view);
         }
     };
 } // namespace gle
