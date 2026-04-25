@@ -67,6 +67,14 @@ namespace gle {
             return idCount++;
         }
 
+        template <typename T>
+        size_t Subscribe(T* instance, void (T::*method)(EventType&)) {
+            listeners.push_back([=](EventType &event) {
+                (instance->*method)(event);
+            });
+            return idCount++;
+        }
+
         void Unsubscribe(size_t id) {
             listeners.erase(id);
         }
