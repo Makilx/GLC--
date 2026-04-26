@@ -2,7 +2,6 @@
 
 #include <GLEngine/pch.hpp>
 #include <GLEngine/type/type.hpp>
-#include <unordered_map>
 
 namespace gle {
     enum class ShaderType {

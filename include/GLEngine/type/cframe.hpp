@@ -15,6 +15,11 @@ namespace gle {
 
         constexpr CFrame(const Vec3 &pos) : position(pos), rotation(){};
 
+        constexpr CFrame(float x, float y, float z)
+            : position(x, y, z), rotation(){};
+
+        constexpr CFrame(const Quat &rot) : position(0, 0, 0), rotation(rot){};
+
         constexpr CFrame(const Vec3 &pos, const Quat &rot)
             : position(pos), rotation(rot) {
         }
@@ -52,6 +57,13 @@ namespace gle {
             Vec3 newPos = TransformPoint(other.position);
             Quat newRot = rotation * other.rotation;
             return CFrame(newPos, newRot);
+        }
+
+        CFrame &operator*=(const CFrame &other) {
+            // Same math as operator*
+            position += rotation * other.position;
+            rotation = rotation * other.rotation;
+            return *this;
         }
 
         // Convert to matrix

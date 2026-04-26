@@ -28,6 +28,7 @@ namespace gle {
         IVec2 size;
 
         static void Init();
+        static void Terminate();
         void SwapBuffers();
         void PollEvents();
         bool ShouldClose();

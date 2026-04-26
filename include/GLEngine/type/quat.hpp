@@ -17,8 +17,51 @@ namespace gle {
         // Constructors
         constexpr Quat() : x(0), y(0), z(0), w(1) {
         }
+
+        constexpr Quat(float x, float y, float z) : x(x), y(y), z(z), w(0) {
+        }
+
         constexpr Quat(float x, float y, float z, float w)
             : x(x), y(y), z(z), w(w) {
+        }
+
+        static Quat FromEuler(float pitch, float yaw, float roll) {
+            float cy = std::cos(yaw * 0.5f);
+            float sy = std::sin(yaw * 0.5f);
+            float cp = std::cos(pitch * 0.5f);
+            float sp = std::sin(pitch * 0.5f);
+            float cr = std::cos(roll * 0.5f);
+            float sr = std::sin(roll * 0.5f);
+
+            Quat q;
+            q.w = cr * cp * cy + sr * sp * sy;
+            q.x = sr * cp * cy - cr * sp * sy;
+            q.y = cr * sp * cy + sr * cp * sy;
+            q.z = cr * cp * sy - sr * sp * cy;
+
+            return q;
+        }
+
+        static Quat FromEulerDegrees(const Vec3 &eulerDegrees) {
+            Vec3 r(toRadians(eulerDegrees.x), toRadians(eulerDegrees.y),
+                   toRadians(eulerDegrees.z));
+
+            return FromEuler(r.x, r.y, r.z);
+        }
+
+        // Explicit camera-style rotation builder.
+        // Yaw uses the engine's camera convention, then pitch and roll are
+        // applied in that rotated space.
+        static Quat FromYawPitchRoll(float yaw, float pitch, float roll = 0.0f) {
+            const Quat yawRotation = FromAxisAngle(Vec3(0, -1, 0), yaw);
+            const Quat pitchRotation = FromAxisAngle(Vec3(1, 0, 0), pitch);
+            const Quat rollRotation = FromAxisAngle(Vec3(0, 0, 1), roll);
+
+            return (yawRotation * pitchRotation * rollRotation).Normalized();
+        }
+
+        static Quat FromYawPitch(float yaw, float pitch) {
+            return FromYawPitchRoll(yaw, pitch, 0.0f);
         }
 
         // Identity
@@ -49,6 +92,20 @@ namespace gle {
                     w * q.y - x * q.z + y * q.w + z * q.x,
                     w * q.z + x * q.y - y * q.x + z * q.w,
                     w * q.w - x * q.x - y * q.y - z * q.z};
+        }
+
+        Quat &operator*=(const Quat &q) {
+            float nx = w * q.x + x * q.w + y * q.z - z * q.y;
+            float ny = w * q.y - x * q.z + y * q.w + z * q.x;
+            float nz = w * q.z + x * q.y - y * q.x + z * q.w;
+            float nw = w * q.w - x * q.x - y * q.y - z * q.z;
+
+            x = nx;
+            y = ny;
+            z = nz;
+            w = nw;
+
+            return *this;
         }
 
         // Rotate vector

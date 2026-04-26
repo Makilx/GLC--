@@ -2,7 +2,6 @@
 
 #include <GLEngine/pch.hpp>
 #include <GLEngine/rendering/opengl/buffer.hpp>
-#include <vector>
 
 namespace gle {
     class Mesh;

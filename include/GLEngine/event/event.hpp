@@ -1,7 +1,7 @@
 #pragma once
 
+#include <GLEngine/pch.hpp>
 #include <functional>
-#include "../pch.hpp"
 
 #define EVENT_CLASS_TYPE(type)                                                 \
     static EventType GetStaticType() {                                         \
@@ -56,37 +56,41 @@ namespace gle {
         Event &e;
     };
 
-    template <typename EventType> class Signal {
+    template <typename EventT>
+    class Signal {
       public:
-        using Listener = std::function<void(EventType &)>;
-        static_assert(std::is_base_of<Event, EventType>(),
-                      "Event type is not inherited from event struct");
+        using Listener = std::function<void(EventT &)>;
+        static_assert(std::is_base_of<Event, EventT>::value,
+                      "Event type must inherit from Event");
 
         size_t Subscribe(Listener listener) {
-            listeners.push_back(listener);
-            return idCount++;
+            const size_t id = ++idCount;
+            listeners.emplace_back(id, std::move(listener));
+            return id;
         }
 
         template <typename T>
-        size_t Subscribe(T* instance, void (T::*method)(EventType&)) {
-            listeners.push_back([=](EventType &event) {
-                (instance->*method)(event);
-            });
-            return idCount++;
+        size_t Subscribe(T *instance, void (T::*method)(EventT &)) {
+            const size_t id = ++idCount;
+            listeners.emplace_back(
+                id, [=](EventT &event) { (instance->*method)(event); });
+            return id;
         }
 
         void Unsubscribe(size_t id) {
-            listeners.erase(id);
+            listeners.erase(
+                std::remove_if(listeners.begin(), listeners.end(),
+                               [&](auto &p) { return p.first == id; }),
+                listeners.end());
         }
 
         void UnsubscribeAll() {
             listeners.clear();
         }
 
-        void Fire(EventType &event) {
-            for (auto &l : listeners) {
-                l(event);
-
+        void Fire(EventT &event) {
+            for (auto &[id, listener] : listeners) {
+                listener(event);
                 if (event.IsHandled())
                     break;
             }
@@ -94,6 +98,6 @@ namespace gle {
 
       private:
         size_t idCount = 0;
-        std::vector<Listener> listeners;
+        std::vector<std::pair<size_t, Listener>> listeners;
     };
 } // namespace gle

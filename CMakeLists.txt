@@ -52,11 +52,11 @@ target_compile_features(GLEngine PUBLIC cxx_std_20)
 ImportRepo(glad https://github.com/Dav1dde/glad.git 5bf3eda)
 add_library(glad STATIC ${glad_SOURCE_DIR}/src/glad.c)
 target_include_directories(glad PUBLIC ${glad_SOURCE_DIR}/include)
-target_link_libraries(GLEngine PUBLIC glad)
+target_link_libraries(GLEngine PRIVATE glad)
 
 # GLFW
 ImportRepo(GLFW https://github.com/glfw/glfw.git 3.4)
-target_link_libraries(GLEngine PUBLIC glfw)
+target_link_libraries(GLEngine PRIVATE glfw)
 
 # GLM
 ImportRepo(GLM https://github.com/g-truc/glm.git 1.0.1)
@@ -64,12 +64,21 @@ ImportRepo(GLM https://github.com/g-truc/glm.git 1.0.1)
 # STB
 ImportRepo(STBImage https://github.com/nothings/stb.git GIT_TAG main)
 
+# IMGUI
+ImportRepo(ImGui https://github.com/ocornut/imgui.git e3033c397503f85bdc6eb82c75c0a381cebaac96)
+target_link_libraries(GLEngine PUBLIC ImGui)
+
 # Include
 target_include_directories(
     GLEngine
     PUBLIC
 
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
+)
+
+target_include_directories(
+    GLEngine
+    PRIVATE
 
     # Import includes
     "${glad_SOURCE_DIR}/include"
@@ -78,19 +87,19 @@ target_include_directories(
     "${stbimage_SOURCE_DIR}"
 )
 
-# add_executable(
-#     Debug
-#     "src/test.cpp"
-# )
-
-# target_link_libraries(
-#     Debug 
-#     PUBLIC
-#     GLEngine
-# )
-
-# target_include_directories(
-#     Debug
-#     PUBLIC
-#     "${CMAKE_CURRENT_SOURCE_DIR}/include"
-# )
+add_executable(
+    Debug
+    "src/test.cpp"
+)
+# 
+target_link_libraries(
+    Debug 
+    PUBLIC
+    GLEngine
+)
+# 
+target_include_directories(
+    Debug
+    PUBLIC
+    "${CMAKE_CURRENT_SOURCE_DIR}/include"
+)

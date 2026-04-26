@@ -8,8 +8,9 @@
 gle::Window *gle::Window::currentInstance = NULL;
 
 // Helpers
-void Terminate(GLFWwindow *window, std::string reason, int code) {
-    if (window) glfwDestroyWindow(window);
+void TerminateError(GLFWwindow *window, std::string reason, int code) {
+    if (window)
+        glfwDestroyWindow(window);
     glfwTerminate();
 
     gle::Logger::LogCritical(reason, code);
@@ -27,7 +28,8 @@ gle::Window::Window() {
     std::string title(windowTitle);
     window =
         glfwCreateWindow(windowSize.x, windowSize.y, title.c_str(), NULL, NULL);
-    if (!window) Terminate(window, "Failed to create a new window", 100);
+    if (!window)
+        TerminateError(window, "Failed to create a new window", 100);
     glfwMakeContextCurrent(window);
     glfwSetWindowUserPointer(window, this);
 
@@ -36,7 +38,8 @@ gle::Window::Window() {
     glfwGetWindowSize(window, &width, &height);
     size = IVec2(width, height);
 
-    if (!gladLoadGL()) Terminate(window, "Failed to load glad", 101);
+    if (!gladLoadGL())
+        TerminateError(window, "Failed to load glad", 101);
 
     // Final settings and callbacks
     glfwSwapInterval(1);
@@ -52,13 +55,18 @@ gle::Window::Window() {
     Logger::Log("Loaded window", LogType::Success);
 }
 
+void gle::Window::Terminate() {
+    delete currentInstance;
+}
+
 gle::Window::~Window() {
     glfwDestroyWindow(window);
     glfwTerminate();
 }
 
 void gle::Window::Init() {
-    if (currentInstance) return;
+    if (currentInstance)
+        return;
     currentInstance = new Window();
 }
 

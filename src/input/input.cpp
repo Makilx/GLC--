@@ -4,13 +4,18 @@
 #include <GLEngine/rendering/window.hpp>
 
 // Static Members
-gle::Signal<gle::MouseButtonStateEvent> OnMouseStateChanged;
-gle::Signal<gle::MouseMoveEvent> OnMouseMove;
-gle::Signal<gle::KeyStateEvent> OnKeyStateChanged;
-gle::Signal<gle::MouseScrollEvent> OnMouseScroll;
+gle::Signal<gle::MouseButtonStateEvent> gle::Input::OnMouseStateChanged;
+gle::Signal<gle::MouseMoveEvent> gle::Input::OnMouseMove;
+gle::Signal<gle::KeyStateEvent> gle::Input::OnKeyStateChanged;
+gle::Signal<gle::MouseScrollEvent> gle::Input::OnMouseScroll;
 gle::Vec2 gle::Input::mousePos = gle::Vec2(0.0, 0.0);
 gle::Vec2 gle::Input::mouseDelta = gle::Vec2(0.0, 0.0);
+gle::Vec2 gle::Input::mouseScroll = gle::Vec2(0.0, 0.0);
 gle::Vec2 gle::Input::lastMousePos = gle::Vec2(0.0, 0.0);
+std::array<bool, 349> gle::Input::pressingKeys = {};
+std::array<bool, 349> gle::Input::previousPressingKeys = {};
+std::array<bool, 8> gle::Input::pressingMouseButtons = {};
+std::array<bool, 8> gle::Input::previousPressingMouseButtons = {};
 gle::MouseBehavior gle::Input::mouseBehavior = gle::MouseBehavior::Default;
 gle::CursorVisibility gle::Input::cursorVisibility =
     gle::CursorVisibility::Default;
@@ -90,7 +95,7 @@ void gle::Input::Init() {
     glfwSetKeyCallback(instance.window, [](GLFWwindow *window, int key,
                                            int scanCode, int action, int mods) {
         bool isPressing = action != GLFW_RELEASE;
-        pressingMouseButtons[key] = isPressing;
+        pressingKeys[key] = isPressing;
 
         KeyStateEvent event;
         event.state = isPressing ? InputState::Down : InputState::Releasing;
